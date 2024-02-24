@@ -1,4 +1,4 @@
-The project involves creating an ETL (Extract, Transform, Load) pipeline to extract GDP information from a Wikipedia page, transform it into a more usable format, and load it into both a CSV file and a SQLite database. Additionally, the code should run a query on the database to filter out countries with GDPs exceeding 100 billion USD and log the entire process in a separate log file.
+The project involves creating an ETL (Extract, Transform, Load) pipeline to extract GDP information from a Wikipedia page, transform it into a more usable format, and load it into both a CSV file and a SQLite database. Additionally, the code runs a query on the database to filter out countries with GDPs exceeding 100 billion USD and log the entire process in a separate log file.
 
 *Data Extraction*: The first step is to extract the relevant GDP information from the provided URL. This can be achieved using web scraping techniques, such as using libraries like BeautifulSoup or Scrapy to parse the HTML content of the webpage and extract the necessary data.
 
